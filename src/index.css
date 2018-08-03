@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.fa-star:before {
+  margin: 10px;
+}
+
+span{
+  width: 28px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+}
+.selected{
+  background-color:lightgray;
+}
+.used{
+  background-color:  rgb(99, 209, 56);
+  cursor: not-allowed;
+}
+.row{
+  display: flex;
+}
+.col-1{
+  width: 40%;
+}
+.col-2{
+  width: 20%;
+}
+.col-3{
+  width: 40%;
+}
+.numbers{
+  margin: 15px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px;
+}
